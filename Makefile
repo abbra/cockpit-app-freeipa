@@ -4,6 +4,9 @@ all:
 install: all install-only
 
 install-only:
+	mkdir -p $(DESTDIR)/usr/libexec
+	cp dist/ipa-check-install $(DESTDIR)/usr/libexec/cockpit-app-freeipa-check-install
+	rm -f dist/ipa-check-install
 	mkdir -p $(DESTDIR)/usr/share/cockpit
 	cp -r dist/ $(DESTDIR)/usr/share/cockpit/app-freeipa
 	mkdir -p $(DESTDIR)/usr/share/metainfo/

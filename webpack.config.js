@@ -22,7 +22,8 @@ module.exports = {
                 { from: "index.html", to: "dist/" },
                 { from: "logo.png", to: "dist/" },
                 { from: "logo-big.png", to: "dist/" },
-                { from: "manifest.json", to: "dist/" }
+                { from: "manifest.json", to: "dist/" },
+                { from: "ipa-check-install", to: "dist/" }
             ]
         )
     ],
