@@ -3,3 +3,4 @@
 /cockpit-app-freeipa.tar.gz
 /cockpit-app-freeipa-*-*.src.rpm
 /webpack.inputs
+/package-lock.json
